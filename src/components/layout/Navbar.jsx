@@ -25,13 +25,9 @@ export default function Navbar({ onMenuToggle, sidebarCollapsed }) {
             <Menu className="h-5 w-5 text-slate-600" />
           </button>
           <div className="flex items-center gap-2.5">
-            <div className="h-9 w-9 rounded-lg bg-primary flex items-center justify-center">
-              <svg className="h-5 w-5 text-white" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z" />
-              </svg>
-            </div>
+            <img src="/logo-shield.png" alt="" className="h-9 w-9 rounded-lg object-contain" />
             <div className="hidden sm:block">
-              <h1 className="text-base font-bold text-slate-900 leading-tight">SecureGuard</h1>
+              <h1 className="text-base font-bold text-slate-900 leading-tight">GuardMaster</h1>
               <p className="text-[10px] text-slate-500 uppercase tracking-wider">Admin Portal</p>
             </div>
           </div>

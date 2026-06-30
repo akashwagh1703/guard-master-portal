@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Navigate } from "react-router-dom";
-import { Shield, Lock } from "lucide-react";
+import { Lock } from "lucide-react";
 import Input from "../components/ui/Input";
 import Button from "../components/ui/Button";
 import { useAuth } from "../context/AuthContext";
@@ -40,10 +40,7 @@ export default function Login() {
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-primary/90 to-slate-800 flex items-center justify-center p-4">
       <div className="w-full max-w-md bg-white rounded-2xl shadow-2xl p-8 animate-page-enter">
         <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-primary/10 mb-4">
-            <Shield className="h-8 w-8 text-primary" />
-          </div>
-          <h1 className="text-2xl font-bold text-slate-900">SecureGuard Admin</h1>
+          <img src="/logo-brand.png" alt="GuardMaster" className="mx-auto h-28 w-auto object-contain mb-2" />
           <p className="text-sm text-slate-500 mt-1">Sign in to manage your agency</p>
         </div>
 
